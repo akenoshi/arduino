@@ -11,7 +11,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(13,1);
 
-  int n0[8]={0,0,0,0,0,0,1,1};
+  int n0[8]={0,0,0,0,0,0,1,1}; //采用数码管中的八个led等的亮起来控制其显示数值
   int z=0;
   for(int x=2;x<=9;x++)
   {
